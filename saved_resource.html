@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://www.uhrs.ai/marketplace/app/63766 -->
+<html style="padding: 0px 12px; width: calc(100% - 24px);"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./jquery-1.8.2.min.js.Download"></script>
+    <script src="./jquery-1.9.1.min.js.Download" type="text/javascript"></script>
+    <script src="./jquery-ui.min.js.Download" type="text/javascript"></script>
+    <link rel="stylesheet" href="./jquery-ui.css">
+    <title>Junk Type</title>
+<style type="text/css">
+        html {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            scrollbar-arrow-color: #3366ff;
+            scrollbar-3dlight-color: #f0f0ff;
+            scrollbar-darkshadow-color: #666666;
+            scrollbar-face-color: #f0f8ff;
+            scrollbar-highlight-color: #ffffff;
+            scrollbar-shadow-color: #c0c0cc;
+            scrollbar-track-color: #f5f5f5;
+        }
+
+        .ui-corner-all {
+            border-radius: 0px !important;
+        }
+
+        .ui-widget {
+            font-size: 11px !important;
+        }
+
+        .ui-padded {
+            padding: 1px;
+        }
+
+        .ui-scrollable {
+            overflow: auto;
+        }
+
+        .ui-filled {
+            background-image: none;
+            background-color: #C6D8F0;
+        }
+
+        .ui-scrollable {
+            overflow: auto;
+        }
+
+        .black {
+            color: black;
+            font-size: 7pt !important;
+            line-height: 11pt !important;
+            font-family: Verdana;
+            text-decoration: none;
+        }
+
+        .navy {
+            color: #1D5997;
+            font-size: 8pt !important;
+            line-height: 11pt !important;
+            font-family: Verdana;
+            text-decoration: none;
+        }
+
+        .white {
+            color: white;
+            font-size: 7pt !important;
+            line-height: 11pt !important;
+            font-family: Verdana;
+            text-decoration: none;
+        }
+
+        .whiteBig {
+            color: white;
+            font-size: 8pt !important;
+            line-height: 11pt !important;
+            font-family: Verdana;
+            text-decoration: none;
+        }
+
+        .bigButton {
+            font-size: 11px !important;
+            text-align: center;
+        }
+
+        .toggleButton {
+            font-size: 11px !important;
+            width: 95%;
+        }
+       
+    </style>
+<style type="text/css" id="base_style">
+body {
+       font-family: "Segoe UI", Arial, Sans-Serif;
+       font-size: 12pt;
+       margin: 0.2em;
+}
+
+/* Large headers */
+h1 {
+       font-size: 1.4em;
+       /* Bing orange */
+       color: rgb(255, 166, 21);
+}
+
+/* For buttons - must use class="button" */
+input.button {
+       background-color: rgb(0, 109, 212);
+       color: white;
+       font-size: 1.2em;
+       margin: 0.5em;
+       padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+</style>
+</head><body>
+<div class="lyt_h">
+<div class="lyt_el">
+    <input id="DocId" type="hidden" value="{Key}">
+    <input id="sja_DocumentUrl" type="hidden" value="https://collegedunia.com/exams/cat/question-paper-2021">
+
+    <br>
+    <div id="topBar" class="ui-widget-header ui-corner-all whiteBig">
+        <table border="0" style="border-spacing: 1px; padding: 1px; width: 100%">
+            <tbody><tr>
+                <td>Junk Type
+                </td>
+                <td style="text-align: right">
+                    <input id="skipButton" type="button" value="Skip" onclick="xPlate_Skip();" class="ui-button ui-widget ui-state-default ui-corner-all" role="button" aria-disabled="false">
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <br>
+
+
+    <fieldset class="ui-widget-content ui-padded">
+        <legend class="ui-widget-header white" style="background: navy;">Junk Type?</legend>
+        <div class="ui-padded navy">
+            <div id="judging">
+                        <div style="color:black;font-size:15px">
+                                <br>
+                                        <u>Browsing Guidelines</u>
+                                <br><br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp; 1. Please <b>DO NOT USE A VPN</b>. It tends to give false results, as some websites behave differently when accessed via VPN.
+                                <br><br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp; 2. Use Edge or Chrome. Please give enough time for page to load completely.
+                                <br><br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp; 3. If page is not in your language, use browser translation (right click -&gt; 'Translate') before judging.
+                                <br><br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp; 4. Pages with insecure/ not private connection – Click advanced and proceed to visit the page with insecure connection and then judge.
+                                <br><br>
+                                            <u>A page is <b>JUNK</b> if it is one of:</u>
+                                <br><br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;• <b>Auto redirect</b> - The page automatically redirects to some other URL. Pay attention to the final URL in the pop-up window. Only exception is redirect to a login page, which is not junk.
+								<br><br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;• <b>Error message page</b> - Sample error phrases - 'Video removed', 'Content not found', 'Not authorized', 'No results', 'Access Denied' etc.
+                                <br><br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;• <b>Site is Unreachable</b> - Could not resolve IP address / DNS resolution failure / Server took too long to respond error / Connection reset error
+                                <br><br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;• <b>Little content</b> - Page has almost no content (text or image), or has only ads and hence making the page useless to the user.
+                                
+                                <br><br>
+                                            <u>Below are <b style="color:Tomato;">NOT JUNK</b>:</u>
+                                <br><br>
+											&nbsp;&nbsp;&nbsp;&nbsp;• Intermittent bot / captcha check page. Clear the captcha, and judge the resulting page.<br><br>
+											&nbsp;&nbsp;&nbsp;&nbsp;• Login page<br><br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;• Empty social media profile (No posts)<br><br>
+											&nbsp;&nbsp;&nbsp;&nbsp;• Product out of stock page<br><br>
+											&nbsp;&nbsp;&nbsp;&nbsp;• Valid software code page.<br><br>
+											<br><br>
+                                <br>
+
+                        </div>
+                    </div><table border="0" style="border-spacing: 15px; padding: 0px width: 100%">
+                <tbody><tr>
+                    <td style="font-size:9pt; color:black">Url - <br><b>https://collegedunia.com/exams/cat/question-paper-2021</b>
+                    </td>
+                    <td><input onclick="LoadJudgedDocumentData();" value="Open Url" type="button" class="button ui-button ui-widget ui-state-default ui-corner-all" role="button" aria-disabled="false"></td>
+                </tr>
+                <tr>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.uhrs.ai/marketplace/app/63766#" title="" style="text-decoration: none" class="NotJunkTooltip">
+                            <input type="radio" id="notjunkButton" name="junkLabel" value="notjunk"><label for="notjunkButton" class="toggleButton">Not Junk</label>
+                        </a>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.uhrs.ai/marketplace/app/63766#" title="" style="text-decoration: none" class="Junk4Tooltip">
+                            <input type="radio" id="junkButton4" name="junkLabel" value="junk4"><label for="junkButton4" class="toggleButton">Error Message / Page not found / No results</label>
+                        </a>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.uhrs.ai/marketplace/app/63766#" title="" style="text-decoration: none" class="Junk5Tooltip">
+                            <input type="radio" id="junkButton5" name="junkLabel" value="junk5"><label for="junkButton5" class="toggleButton">Low / No Content / Ads only pages</label>
+                        </a>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.uhrs.ai/marketplace/app/63766#" title="" style="text-decoration: none" class="Junk11Tooltip">
+                            <input type="radio" id="junkButton11" name="junkLabel" value="junk11"><label for="junkButton11" class="toggleButton">Site unreachable</label>
+                        </a>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.uhrs.ai/marketplace/app/63766#" title="" style="text-decoration: none" class="Junk10Tooltip">
+                            <input type="radio" id="junkButton10" name="junkLabel" value="junk10"><label for="junkButton10" class="toggleButton">Automatic Redirection</label>
+                        </a>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.uhrs.ai/marketplace/app/63766#" title="" style="text-decoration: none" class="Junk8Tooltip">
+                            <input type="radio" id="junkButton8" name="junkLabel" value="junk8"><label for="junkButton8" class="toggleButton">Other type of Junk</label>
+                        </a>                        
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="https://www.uhrs.ai/marketplace/app/63766#" title="" style="text-decoration: none" class="Junk9Tooltip">
+                            <input type="radio" id="junkButton9" name="junkLabel" value="junk9"><label for="junkButton9" class="toggleButton">Can't Judge</label>
+                        </a>                        
+                    </td>
+                </tr>      
+                 
+            </tbody></table>
+        </div>
+    </fieldset>
+    <br>
+    <div align="center">
+        <input id="submitButton" type="button" value="Submit" onclick="Submit();" class="bigButton ui-button ui-widget ui-state-default ui-corner-all" style="width: 90%" role="button" aria-disabled="false">
+    </div>
+    
+    
+
+    <script type="text/javascript">
+
+        var judgedDocumentWindow;
+        var judgedDocumentData;
+        var windowFrameWidth = 20;
+        var uhrsWindowWidth = 400;
+        var uhrsWindowHeight = screen.availHeight;
+        var judgedDocumentWindowWidth = screen.availWidth - uhrsWindowWidth - windowFrameWidth;
+        var judgedDocumentWindowHeight = screen.availHeight;
+        var xPlateControl = top.document.getElementById('silverlightControl');
+        var SubmitTimerTimedOut = false;
+        var HasNotLoaded = true;
+
+
+        function xPlate_OnLoad(isFirstLoad) {
+            ApplyJqueryUiStyles();
+            PositionWindows();
+            LoadJudgedDocumentData();
+
+            if (HasNotLoaded) {
+                // Set to alert if not taken enough time to judge a hit. (Seconds*1000). Set this as per practical need. 
+                // Crowd judges typically goes faster than you and I can judge so please do not restrict it to strictly. The engagement may go down.
+                setTimeout("SubmitTimerTimedOut = true;", 2000);
+
+                HasNotLoaded = false;
+            }
+        };
+
+        function xPlate_OnUnLoad() {
+            
+        };
+
+        function xPlate_GoForward() {
+            xPlateControl.Content.MainPage.GoForwardFromJavascript();
+        };
+
+        function xPlate_Skip() {
+            
+            xPlateControl.Content.MainPage.SkipFromJavascript();
+        };
+
+        function xPlate_GoBack() {
+            xPlateControl.Content.MainPage.GoBackFromJavascript();
+        };
+
+        function xPlate_SetJudgmentDataInt(i) {
+            var control = top.document.getElementById('silverlightControl');
+            control.Content.MainPage.SetJudgmentDataIntFromJavascript('', i);
+        };
+
+        function Submit() {
+
+            if (!SubmitTimerTimedOut) {
+                alert("We would appreciate if you review content carefully and provide your input.");
+                return false;
+            }
+
+            finalLabel = $('input[name=junkLabel]:checked').val();
+
+            switch (finalLabel) {
+
+                case "junk4":
+                                xPlate_SetJudgmentDataInt(94);
+                                break;
+
+
+                case "junk5":
+                                xPlate_SetJudgmentDataInt(95);
+                                break;
+
+                case "junk8":
+                                xPlate_SetJudgmentDataInt(98);
+                                break;
+
+                case "junk9":
+                                xPlate_SetJudgmentDataInt(99);
+                                break;
+                                
+                case "junk10":
+                                xPlate_SetJudgmentDataInt(97);
+                                break;
+							
+                case "junk11":
+                                xPlate_SetJudgmentDataInt(96);
+                                break;
+
+                case "notjunk":
+                                xPlate_SetJudgmentDataInt(0);
+                                break;
+           
+               
+                default: alert("Please select a category");
+                    return;
+            }
+
+            
+            xPlate_GoForward();
+        };
+
+
+        function PositionWindows() {
+            if (top.isResized) {
+                return;
+            }
+
+            top.isResized = true;
+
+            // we need to position the xPlate window before and after the resize to avoid some 
+            // weird side-effects of being inside the silverlight host
+            top.moveTo(0, 0);
+            top.resizeTo(uhrsWindowWidth, uhrsWindowHeight);
+            top.moveTo(0, 0);
+        }
+
+        function OpenNewWindow(url) {
+            window.open('about:blank', 'newindow', 'status=1,toolbar=0,left=300,scrollbars=1,location=1,top=0,height=' + (screen.height - 110) + ',width=' + (screen.width - 300));
+            window.open(url, 'newindow', 'noreferrer,status=1,toolbar=0,left=300,scrollbars=1,location=1,top=0,height=' + (screen.height - 110) + ',width=' + (screen.width - 300));
+        }
+
+        function LoadJudgedDocumentData() {
+
+            // now we open the window that displays the document to be judged
+            focus();
+            OpenNewWindow($("#sja_DocumentUrl").val());
+            focus();
+        }
+
+        function ApplyJqueryUiStyles() {
+
+            $("#guidelines").dialog({ autoOpen: false, height: 500, width: 300, position: [5, 60], modal: true, resizable: false });
+            $(":button").button();
+
+            $(".Junk4Tooltip").tooltip({ content: '<span class="navy">'
+													+'Majority of the page content is missing due to a stated error like:<br/><br/>'
+													+'• Database error<br/><br/>'
+													+'• Flash or JavaScript related errors<br/><br/>'
+													+'• Something is not right/ Oops — that\'s not right!<br/><br/>'
+													+'• Login error<br/><br/>• Session expired<br/><br/>'
+													+'• Shopping Cart is Empty<br/><br/>'
+													+'• Site moved/ changed/ down/ under maintenance/ upcoming<br/><br/>• Access denied/ Forbidden/ Restricted<br/><br/>'
+													+'</span>' });
+
+            $(".Junk5Tooltip").tooltip({ content: '<span class="navy">'
+													+'• Main part of the page contains no or little useful content (e.g. page with an empty body surrounded by navigation bars)<br/><br/>'
+													+'• Page content has ads only and no additional content.<br/><br/>'
+													+'• Blank white page<br/><br/>'
+													+'</span>' });
+        
+            $(".Junk10Tooltip").tooltip({ content: '<span class="navy">'
+													+'• Pages which redirect you to another URL automatically<br/><br/>'
+													+'• Pages which redirect you to homepage automatically<br/><br/>'
+													+'• Pages which redirect you to a login page are <b style="color:Tomato;">NOT<b/> Junk<br><br>'
+													+'</span>' });
+
+			$(".Junk11Tooltip").tooltip({ content: '<span class="navy">There are 2 ways to identify this:<br><br>'
+													+'1. Browser message saying it cannot reach the server.<br><br>'
+													+'&nbsp&nbsp• Edge gives a message - "Hmmm… cant reach this page"<br><br>'
+													+'&nbsp&nbsp• Chrome gives a message - "This site can’t be reached"<br><br>'
+													+'2. "Domain available for sale" kind of a page.<br/><br/>'
+													+'</span>' });
+
+
+			$(".Junk11Tooltip").tooltip({ content: '<span class="navy">There are 2 ways to identify this:<br><br>'
+													+'1. Browser message saying it cannot reach the server.<br><br>'
+													+'&nbsp&nbsp• Edge gives a message - "Hmmm… cant reach this page"<br><br>'
+													+'&nbsp&nbsp• Chrome gives a message - "This site can’t be reached"<br><br>'
+													+'2. "Domain available for sale" kind of a page.<br/><br/>'
+													+'</span>' });
+
+
+            $(".Junk8Tooltip").tooltip({ content: '<span class="navy">'
+													+'• WebSERP: Result page from web/image/video/news search engine/ aggregator. with no specialized content <br/><br/>'
+													+'• Any other issue other than listed<br/><br/>'
+													+'</span>' });
+			
+            $(".Junk9Tooltip").tooltip({ content: '<span class="navy">'
+													+'• Pages where you have a doubt or not-sure which category<br/><br/>'
+													+'</span>' });
+        
+			$(".NotJunkTooltip").tooltip({ content: '<span class="navy">'
+													+'• Intermittent bot / captcha checks<br/><br/>'
+													+'• Login pages<br/><br/>'
+													+'• Good search results from popular websites like youtube, amazon etc. <br/><br/>'
+													+'• Pages which trigger downloads<br/><br/>'
+													+'• Valid software code page<br/><br/>'
+													+'• Any other page with useful content<br/><br/>'
+													+'</span>' });
+        }
+
+        function ShowGuidelines() {
+            $("#guidelines").dialog("open");
+        }
+
+    </script>
+
+
+</div>
+</div>
+</body></html>
