@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "PGreen Copy Hidden Document URL",
+  "version": "1.0.0",
+  "description": "Copy value from hidden field #sja_DocumentUrl to clipboard by keyboard shortcut.",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Copy hidden document URL"
+  },
+  "commands": {
+    "copy-hidden-document-url": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+5",
+        "windows": "Ctrl+Shift+5",
+        "linux": "Ctrl+Shift+5",
+        "mac": "Command+Shift+5"
+      },
+      "description": "Copy hidden document URL from current tab",
+      "global": true
+    }
+  }
+}

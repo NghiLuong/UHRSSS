@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "UHRS Sheet Action Runner",
+  "version": "1.0.0",
+  "description": "Lấy đường dẫn trên trang, đối chiếu Google Sheet qua Apps Script, rồi tự bấm hành động 1-6 hoặc mở link UHRS.",
+  "permissions": ["activeTab", "scripting", "tabs", "clipboardWrite"],
+  "host_permissions": [
+    "https://www.uhrs.ai/*",
+    "https://*.uhrs.ai/*",
+    "https://script.google.com/*",
+    "https://script.googleusercontent.com/*"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "commands": {
+    "run_once": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+7"
+      },
+      "description": "Chạy 1 lần: copy link, hỏi Google Sheet, thực hiện hành động"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "UHRS Sheet Auto Runner",
+  "version": "1.4.0",
+  "description": "Tự lấy URL trên UHRS, đối chiếu Google Sheet, chọn đáp án và submit theo vòng lặp.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://www.uhrs.ai/*",
+    "https://*.uhrs.ai/*",
+    "https://script.google.com/*",
+    "https://script.googleusercontent.com/*",
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "commands": {
+    "run_once": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+7"
+      },
+      "description": "Bật vòng lặp UHRS Sheet Auto Runner"
+    },
+    "stop_runner": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+8"
+      },
+      "description": "Dừng vòng lặp UHRS Sheet Auto Runner"
+    }
+  }
+}

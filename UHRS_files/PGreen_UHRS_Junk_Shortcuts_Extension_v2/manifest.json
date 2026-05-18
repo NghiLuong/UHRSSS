@@ -1,0 +1,85 @@
+{
+  "manifest_version": 3,
+  "name": "PGreen UHRS Junk Shortcuts",
+  "version": "2.0.0",
+  "description": "Use keyboard shortcuts to select UHRS Junk Type buttons and copy hidden document URL.",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "PGreen UHRS Junk Shortcuts"
+  },
+  "commands": {
+    "select-not-junk": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1",
+        "windows": "Ctrl+Shift+1",
+        "linux": "Ctrl+Shift+1",
+        "mac": "Command+Shift+1"
+      },
+      "description": "Select Not Junk"
+    },
+    "select-error-page": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+2",
+        "windows": "Ctrl+Shift+2",
+        "linux": "Ctrl+Shift+2",
+        "mac": "Command+Shift+2"
+      },
+      "description": "Select Error Message / Page not found / No results"
+    },
+    "select-low-content": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+3",
+        "windows": "Ctrl+Shift+3",
+        "linux": "Ctrl+Shift+3",
+        "mac": "Command+Shift+3"
+      },
+      "description": "Select Low / No Content / Ads only pages"
+    },
+    "select-site-unreachable": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+4",
+        "windows": "Ctrl+Shift+4",
+        "linux": "Ctrl+Shift+4",
+        "mac": "Command+Shift+4"
+      },
+      "description": "Select Site unreachable"
+    },
+    "select-auto-redirection": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+5",
+        "windows": "Ctrl+Shift+5",
+        "linux": "Ctrl+Shift+5",
+        "mac": "Command+Shift+5"
+      },
+      "description": "Select Automatic Redirection"
+    },
+    "select-other-junk": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+6",
+        "windows": "Ctrl+Shift+6",
+        "linux": "Ctrl+Shift+6",
+        "mac": "Command+Shift+6"
+      },
+      "description": "Select Other type of Junk"
+    },
+    "copy-hidden-document-url": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+7",
+        "windows": "Ctrl+Shift+7",
+        "linux": "Ctrl+Shift+7",
+        "mac": "Command+Shift+7"
+      },
+      "description": "Copy hidden document URL from current tab"
+    }
+  }
+}
